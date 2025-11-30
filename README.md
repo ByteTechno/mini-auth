@@ -10,21 +10,21 @@ A minimum user authentication system based on Flask + SQLite, supporting registr
 - Complete template structure: Jinja2 template inheritance (base/login/register/home)
 
 ## 📁 Directory structure
-MiniAuth/
-├── app.py                          # Main program entry, including all backend logic
-├── users.db                        # SQLite database file (Automatically generated for the first run)
-└── templates/                      # Page template directory
-    ├── base.html                   # Master Template (Inherited by all pages)
-    ├── login.html                  # login page
-    ├── register.html               # Registration page
-    └── home.html                   # The homepage after logging in
+* MiniAuth/
+* ├── app.py                          # Main program entry, including all backend logic
+* ├── users.db                        # SQLite database file (Automatically generated for the first run)
+* └── templates/                      # Page template directory
+*    ├── base.html                   # Master Template (Inherited by all pages)
+*     ├── login.html                  # login page
+*     ├── register.html               # Registration page
+*     └── home.html                   # The homepage after logging in
 
 ## 🚀 Startup mode
-Make sure you have installed Flask:
+* Make sure you have installed Flask:
 pip install flask
-Then run the project:
+* Then run the project:
 python app.py
-Open a browser and visit:
+* Open a browser and visit:
 http://127.0.0.1:5000/
 It will redirect to the login page for the first time.
 
